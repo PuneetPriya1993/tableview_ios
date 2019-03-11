@@ -20,6 +20,11 @@
 		9BC3295E2237081000B55287 /* FlagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3295D2237081000B55287 /* FlagTableViewController.swift */; };
 		9BC329602237082A00B55287 /* Flag1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3295F2237082A00B55287 /* Flag1.swift */; };
 		9BC329622237154B00B55287 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC329612237154B00B55287 /* MenuTableViewController.swift */; };
+		9BC3296422371BA300B55287 /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BC3296322371BA200B55287 /* tiger.jpg */; };
+		9BC3296622371D0100B55287 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC3296522371D0100B55287 /* home.png */; };
+		9BC329682237209D00B55287 /* StudentInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC329672237209D00B55287 /* StudentInformationViewController.swift */; };
+		9BC3296A223722FA00B55287 /* StudentDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC32969223722FA00B55287 /* StudentDetailsTableViewCell.swift */; };
+		9BC3296C223725E200B55287 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3296B223725E200B55287 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		9BC3295D2237081000B55287 /* FlagTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagTableViewController.swift; sourceTree = "<group>"; };
 		9BC3295F2237082A00B55287 /* Flag1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag1.swift; sourceTree = "<group>"; };
 		9BC329612237154B00B55287 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BC3296322371BA200B55287 /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
+		9BC3296522371D0100B55287 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		9BC329672237209D00B55287 /* StudentInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInformationViewController.swift; sourceTree = SOURCE_ROOT; };
+		9BC32969223722FA00B55287 /* StudentDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		9BC3296B223725E200B55287 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,8 @@
 				9BC32929223701B200B55287 /* ViewController.swift */,
 				9BC3292B223701B200B55287 /* Main.storyboard */,
 				9BC3292E223701B300B55287 /* Assets.xcassets */,
+				9BC3296522371D0100B55287 /* home.png */,
+				9BC3296322371BA200B55287 /* tiger.jpg */,
 				9BC3295B223706F500B55287 /* download.png */,
 				9BC32957223706E800B55287 /* download-1.png */,
 				9BC32955223706E200B55287 /* download-2.png */,
@@ -121,6 +133,9 @@
 				9BC3295D2237081000B55287 /* FlagTableViewController.swift */,
 				9BC3295F2237082A00B55287 /* Flag1.swift */,
 				9BC329612237154B00B55287 /* MenuTableViewController.swift */,
+				9BC329672237209D00B55287 /* StudentInformationViewController.swift */,
+				9BC32969223722FA00B55287 /* StudentDetailsTableViewCell.swift */,
+				9BC3296B223725E200B55287 /* Student.swift */,
 			);
 			path = tableView_ios;
 			sourceTree = "<group>";
@@ -250,6 +265,8 @@
 				9BC32956223706E200B55287 /* download-2.png in Resources */,
 				9BC32932223701B300B55287 /* LaunchScreen.storyboard in Resources */,
 				9BC3292F223701B300B55287 /* Assets.xcassets in Resources */,
+				9BC3296422371BA300B55287 /* tiger.jpg in Resources */,
+				9BC3296622371D0100B55287 /* home.png in Resources */,
 				9BC3292D223701B200B55287 /* Main.storyboard in Resources */,
 				9BC3295C223706F500B55287 /* download.png in Resources */,
 				9BC32958223706E800B55287 /* download-1.png in Resources */,
@@ -279,9 +296,12 @@
 			files = (
 				9BC3292A223701B200B55287 /* ViewController.swift in Sources */,
 				9BC329602237082A00B55287 /* Flag1.swift in Sources */,
+				9BC3296A223722FA00B55287 /* StudentDetailsTableViewCell.swift in Sources */,
 				9BC329622237154B00B55287 /* MenuTableViewController.swift in Sources */,
 				9BC32928223701B200B55287 /* AppDelegate.swift in Sources */,
 				9BC3295E2237081000B55287 /* FlagTableViewController.swift in Sources */,
+				9BC329682237209D00B55287 /* StudentInformationViewController.swift in Sources */,
+				9BC3296C223725E200B55287 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,8 +18,9 @@ class MenuTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editBut
+    }
 
-        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+     override   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
         {
             if indexPath.section == 0{
             switch indexPath.row{
@@ -67,4 +68,4 @@ class MenuTableViewController: UITableViewController {
 }
     
 }
-}
+
